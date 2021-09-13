@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\intall_programs\bin\yarn.js dev
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\intall_programs\bin\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u262-b10\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\FERNANDO\AppData\Local\Microsoft\WindowsApps;C:\Users\FERNANDO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\FERNANDO\AppData\Local\Yarn\bin;C:\Users\FERNANDO\AppData\Roaming\Composer\vendor\bin;C:\Users\Fernando\AppData\Local\Android\Sdk\emulator;C:\Users\Fernando\AppData\Local\Android\Sdk\tools;C:\Users\Fernando\AppData\Local\Android\Sdk\tools\bin;C:\Users\Fernando\AppData\Local\Android\Sdk\platform-tools;C:\Users\FERNANDO\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\FERNANDO\Desktop\apinode\package.json: Unexpected token ; in JSON at position 135
+      at JSON.parse (<anonymous>)
+      at D:\intall_programs\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\intall_programs\lib\cli.js:310:30)
+      at D:\intall_programs\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "apinode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "node run ./index.js";
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
